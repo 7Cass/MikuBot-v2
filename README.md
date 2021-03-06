@@ -1,7 +1,5 @@
 # MikuBot
 
----
-
 # Tópicos
 
 ##### 👉 [Sobre](#sobre)
@@ -15,8 +13,6 @@
 # Sobre
 
 ## Bot criado para o servidor [AnimeSuki](https://discord.com/invite/PU9py7u) no Discord
-
----
 
 # Status
 
@@ -33,8 +29,6 @@
 - [ ] **Banco de Dados**
 - [ ] **Sistema de Loja**
 - [ ] **Website Oficial**
-
----
 
 # Features
 
