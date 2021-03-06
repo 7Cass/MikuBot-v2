@@ -16,7 +16,7 @@
 
 # Status
 
-🚧 **Miku Bot** Em desenvolvimento, **20%** concluído...🚧
+🚧 **Miku Bot** Em desenvolvimento, **5%** concluído...🚧
 
 - [ ] **Comandos de Moderação/Administração**
 - [ ] **Comandos Básicos**
