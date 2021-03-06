@@ -48,7 +48,7 @@ Lista de comandos prontos e próximos a serem feitos.
 #### Mod
 
 - [ ] **Mute**
-- [ ] **Purge**
+- [x] **Purge**
 
 #### Misc
 
