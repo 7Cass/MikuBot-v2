@@ -1,5 +1,3 @@
-const { user } = require("../..");
-
 module.exports = {
   name: "ban",
   description: "Bane o usuário mencionado",
