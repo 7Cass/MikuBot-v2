@@ -1,25 +1,15 @@
 const { token, prefix } = require("./config.json");
-const fs = require("fs");
 const Discord = require("discord.js");
-
 const client = new Discord.Client();
+const loadCommands = require("./loadCommands.js");
 
 client.commands = new Discord.Collection();
 
-const commandFolders = fs.readdirSync("./commands");
+client.once("ready", () => {
+  console.log(`Bot On! ${client.user.tag}`);
 
-for (const folder of commandFolders) {
-  const commandFiles = fs
-    .readdirSync(`./commands/${folder}`)
-    .filter((file) => file.endsWith(".js"));
-
-  for (const file of commandFiles) {
-    const command = require(`./commands/${folder}/${file}`);
-    client.commands.set(command.name, command);
-  }
-}
-
-client.once("ready", () => console.log(`Bot On! ${client.user.tag}`));
+  loadCommands(client);
+});
 
 const cooldowns = new Discord.Collection();
 
