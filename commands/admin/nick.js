@@ -4,6 +4,7 @@ module.exports = {
   name: "botnick",
   description: "Muda o nick do bot",
   cooldown: 5,
+  require: "ADMINISTRATOR",
   execute(message, args, client, prefix) {
     const admin = "476937718677504010" || "501468044234265857";
     const nick = args.join(" ");

@@ -2,6 +2,7 @@ module.exports = {
   name: "purge",
   description: "Apaga um número específico de mensagens do chat",
   cooldown: 5,
+  require: "MODERATOR",
   execute(message, args, client, prefix) {
     const hasPermission = message.channel
       .permissionsFor(message.member)

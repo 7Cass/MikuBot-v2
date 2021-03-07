@@ -2,6 +2,7 @@ module.exports = {
   name: "ban",
   description: "Bane o usuário mencionado",
   cooldown: 5,
+  require: "ADMINISTRATOR",
   execute(message, args, client, prefix) {
     const { mentions } = message;
 
