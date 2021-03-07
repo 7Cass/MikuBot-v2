@@ -4,11 +4,12 @@ module.exports = {
   cooldown: 5,
   require: "MODERATOR",
   execute(message, args, client, prefix) {
-    const hasPermission = message.channel
+    const FLAGS = ["MANAGE_MESSAGES"];
+    const isMod = message.channel
       .permissionsFor(message.member)
-      .has("MANAGE_MESSAGES", false);
+      .has(FLAGS, false);
 
-    if (hasPermission) {
+    if (isMod) {
       if (args.length > 0) {
         const amount = parseInt(args[0]) + 1;
 
