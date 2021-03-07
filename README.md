@@ -53,7 +53,7 @@ Lista de comandos prontos e próximos a serem feitos.
 #### Misc
 
 - [ ] Ping
-- [ ] **Help**
+- [x] **Help**
 
 ## Moeda
 
