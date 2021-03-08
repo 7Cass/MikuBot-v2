@@ -44,14 +44,9 @@ module.exports = {
 
     if (user.id === admin) {
       embed.setColor("#2f99bb");
-      commands
-        .filter((command) => command.require === "ADMINISTRATOR")
-        .forEach((command) => {
-          embed.addField(
-            `${capitalize(command.name)}`,
-            `${command.description}`
-          );
-        });
+      commands.forEach((command) => {
+        embed.addField(`${capitalize(command.name)}`, `${command.description}`);
+      });
       return message.channel.send(embed);
     }
 
