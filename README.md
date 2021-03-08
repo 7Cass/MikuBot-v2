@@ -41,18 +41,29 @@ Lista de comandos prontos e próximos a serem feitos.
 
 - [x] **Ban**
 - [x] **Kick**
-- [x] Bot Nick
-- [ ] Bot Status
-- [ ] Bot Avatar
+- [x] Change Bot Name
+- [ ] Change Bot Nickname
+- [ ] Change Bot Status
+- [ ] Change Bot Avatar
+- [ ] Change User Nickname
 
 #### Mod
 
-- [ ] **Mute**
+- [x] **Mute**
 - [x] **Purge**
+- [ ] **Log**
+- [ ] **Set Log Channel**
+
+#### Server
+
+- [ ] **Welcome Message**
+- [ ] **Leave Message**
+- [ ] Server Status
 
 #### Misc
 
 - [ ] Ping
+- [ ] Get User Avatar
 - [x] **Help**
 
 ## Moeda
