@@ -68,7 +68,7 @@ Lista de comandos prontos e próximos a serem feitos.
 
 #### Server
 
-- [] **Local Server (bat file)**
+- [x] **Local Server (bat file)**
 
 ## Moeda
 
