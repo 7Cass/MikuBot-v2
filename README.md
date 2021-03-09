@@ -66,6 +66,10 @@ Lista de comandos prontos e próximos a serem feitos.
 - [ ] Get User Avatar
 - [x] **Help**
 
+#### Server
+
+- [] **Local Server (bat file)**
+
 ## Moeda
 
 🚧 **Em breve..**
