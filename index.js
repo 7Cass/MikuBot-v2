@@ -1,9 +1,13 @@
 const { token, prefix } = require("./config.json");
-const Discord = require("discord.js");
-const client = new Discord.Client();
+const { Client, Intents, Collection } = require("discord.js");
+
+let intents = new Intents(Intents.NON_PRIVILEGED);
+intents.add("GUILD_MEMBERS");
+const client = new Client({ ws: { intents: intents } });
+
 const loadCommands = require("./loadCommands.js");
 
-client.commands = new Discord.Collection();
+client.commands = new Collection();
 
 client.once("ready", () => {
   console.log(`Bot On! ${client.user.tag}`);
@@ -11,7 +15,7 @@ client.once("ready", () => {
   loadCommands(client);
 });
 
-const cooldowns = new Discord.Collection();
+const cooldowns = new Collection();
 
 client.on("message", (message) => {
   if (!message.content.startsWith(prefix) || message.author.bot) return;
@@ -49,7 +53,7 @@ client.on("message", (message) => {
   }
 
   if (!cooldowns.has(command.name)) {
-    cooldowns.set(command.name, new Discord.Collection());
+    cooldowns.set(command.name, new Collection());
   }
 
   const dateNow = Date.now();
