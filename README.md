@@ -45,7 +45,7 @@ Lista de comandos prontos e próximos a serem feitos.
 - [x] Change Bot Nickname
 - [x] Change Bot Status
 - [ ] Change Bot Avatar
-- [ ] Mass Nickname
+- [x] Mass Nickname
 
 #### Mod
 
