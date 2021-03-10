@@ -42,10 +42,10 @@ Lista de comandos prontos e próximos a serem feitos.
 - [x] **Ban**
 - [x] **Kick**
 - [x] Change Bot Name
-- [ ] Change Bot Nickname
-- [ ] Change Bot Status
+- [x] Change Bot Nickname
+- [x] Change Bot Status
 - [ ] Change Bot Avatar
-- [ ] Change User Nickname
+- [ ] Mass Nickname
 
 #### Mod
 
