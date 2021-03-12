@@ -1,7 +1,7 @@
 module.exports = {
-  name: "teste",
+  name: "botstatus",
   description: "Altera o status do bot",
-  cooldown: 1,
+  cooldown: 5,
   require: "ADMINISTRATOR",
   execute(message, args, client, prefix) {
     const admin = "476937718677504010" || "501468044234265857";
